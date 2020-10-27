@@ -1,15 +1,21 @@
-#Gradle
-.gradle/
-build/
+.DS_Store
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+/out/
+/target/
 
-# Eclipse
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-.settings/
+.settings
+.springBeans
 bin/
 
-# IntelliJ IDEA
-.idea/
-*.iml
+### IntelliJ IDEA ###
+.idea
 *.iws
+*.iml
 *.ipr
